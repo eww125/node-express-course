@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const app = express();
 
 const bodyParser = require('body-parser');
@@ -18,6 +19,9 @@ app.get('/', function (req, res) {
 	})
 });
 
+app.get('/html', function(req, res) {
+  res.sendFile(path.join(__dirname, '/index.html'));
+});
 
 app.get('/users',function(req,res){
 	res.json({

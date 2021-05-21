@@ -1,0 +1,26 @@
+We're actively seeking a GIS Developer to design and develop frontend and backend enhancements to our client’s Esri ArcGIS Online and Enterprise Portal data collection and reporting systems for right-of-way vegetation management. 
+
+
+Develop new tools, Widgets and web applications for end users, and developing automated QC and data controls procedures.
+
+
+Drive the design & development of applications & tools that best align with the specific needs of each line-of-business.
+
+
+Partner with stakeholders accurately gathering functional requirements to develop clear and concise scopes of work and development timelines.
+
+Collect and manage geospatial data from multiple data sources, import data into various formats and sculpt the data according to present to various audiences.
+
+Provided ongoing maintenance, enhancements, bug fixes and general support for new and pre-existing application and tools in python, JavaScript, ArcGIS API, and Quick Base.
+ 
+
+
+5-10 years’ experience designing and developing tools, Widgets and web applications (frontend & backend).
+Experience with Esri Products – ArcGIS Online, Enterprise Portal, ArcGIS Pro, ArcSDE, ArcGIS Desktop.
+Experience with Esri-based web and tool development - ArcGIS API for Javascript, ArcGIS API for python, REST endpoints, ArcPy and Python.
+SQL and Microsoft SQL Server experience with the ability to create, modify, automate, and run SQL queries needed to mine and analyze large datasets within spatial DB’s.
+Strong data analysis, data modeling, database management, and data manipulation.
+Experience in the development of complex reporting and dashboarding through various Esri Dashboard products, Microsoft PowerBI, and/or Tableau.
+Take ownership of the tool and web application development cycle and implement best practices for code repository management and version control.
+Facilitate ongoing stakeholder communication to optimize business decisions.
+Attend and participate on project status meetings and maintain follow‐up list of action items and meeting minutes for stakeholder distribution. 
