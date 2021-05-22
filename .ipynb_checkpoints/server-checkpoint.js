@@ -4,7 +4,7 @@ const app = express();
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
-
+app.use('/static', express.static('files'))
 
 const mockUserData=[
 	{name:'Mark'},
@@ -12,15 +12,19 @@ const mockUserData=[
 ]
 
 app.get('/', function (req, res) {
-	res.json({
-		success: true,
-		message: 'this would be the default route',
-		users: mockUserData
-	})
+    res.sendFile(path.join(__dirname, '/table.html'));
 });
 
-app.get('/html', function(req, res) {
-  res.sendFile(path.join(__dirname, '/index.html'));
+app.get('/sendfile', function(req, res) {
+  res.sendFile(path.join(__dirname, '/sendfile.html'));
+});
+
+app.get('/arcgis', function(req, res) {
+  res.sendFile(path.join(__dirname, '/arcgis.html'));
+});
+
+app.get('/arcgis2', function(req, res) {
+  res.sendFile(path.join(__dirname, '/arcgis2.html'));
 });
 
 app.get('/users',function(req,res){
